@@ -1,0 +1,114 @@
+body{
+	font-family:Agency FB;
+	background-color: #600D04;
+	margin: 0px;
+	color:white;
+	line-height: 1.6;
+
+}
+
+a{
+	text-decoration: none;/*links uner line will be gone*/
+	color: #EADA1C;
+}
+
+#New{
+	margin:0;
+	padding:0;
+	background:url(2.jpg) no-repeat center/cover;
+	/*background-repeat: no-repeat;*/
+	width: 100%;
+	height: 100vh;/*viewport height*/	overflow:hidden;/*//in header section it is showing the bgcolor so we are using to remove the bg color we are uisng overflow*/
+/*overflow  can be seen in vertical direction and in horizontal direction and wrapping all those things can be seen in the property*/
+}
+
+#New .container{
+	margin-top: 25vh;
+}
+
+#New h1{
+	font-size: 4rem;/*rem means root elements font size*/
+	margin-bottom: 0;
+
+}
+#New h2{
+	font-size: 2rem;/*rem means root elements font size*/
+	
+}
+
+
+nav{/* for navition bar we have used this*/
+	height: 40px;
+	width: 100%;
+	background-color: #050500;
+	color: rgb(5, 5, 0);
+	position: fixed;
+}
+nav ul{
+/*this is for the url what we are using in the url*/
+margin:0;
+padding:0;
+}
+
+nav li{/*all the anchor tags we are using this */
+display: inline;
+float: left;  /*its most likely to the text-align only*/
+}
+
+nav a{
+	display: inline-block;/*//comes in a inline and also comes in a block*/
+	width: 100px;/*// the blocks will seperate*/
+	text-align: center;
+	text-decoration: none;
+	padding: 10px 0;
+	color: white;
+}
+
+nav li:hover{
+	background-color: #616403;
+}
+
+.container{
+	max-width: 1180px;
+	text-align: center;
+	margin: 0 auto;
+	padding: 0 3rem;
+}
+
+.lead{
+	font-size: 4rem;
+}
+
+footer .footer{
+	display: grid; /*divided into rows and colmns*/
+	grid-gap: 20px;/*// providing gaps to my grid*/
+	grid-template-columns: repeat(4,1fr);/*repeated in 4 times we are taking 4 footer so we are taking 4 only if we take  we will take 5*/
+/*fr is a fractional unit with differene of 4 columns will be 1 fractional unit*/
+padding: 2rem;
+text-align: left;
+font-size: 20px;
+}
+
+footer .footer ul{
+	list-style: none;
+
+}
+
+footer .footer ul li:first-child{
+	font-size: 1.8rem;
+	padding-bottom: 0.5rem;
+	border-bottom: #444 solid 1px;
+	margin-bottom: 1rem;
+}
+
+footer .footer-bottom{
+	text-align: center;
+	background-color: #0A5CF5;
+	padding: 1rem;
+	
+}
+
+
+
+
+
